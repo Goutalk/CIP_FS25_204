@@ -16,3 +16,5 @@ response = requests.get(base_url, params=params)
 # JSON-Daten formatieren und ausgeben
 data = response.json()
 print(json.dumps(data, indent=4, ensure_ascii=False))
+
+print("Hello World")
