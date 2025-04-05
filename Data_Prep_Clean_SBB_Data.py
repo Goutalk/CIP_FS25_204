@@ -1,6 +1,6 @@
 import numpy as np
 import pandas as pd
-import openpyxl
+#import openpyxl
 
 ## Step 1: Load raw data
 # URL to raw data of primary data source
@@ -151,7 +151,7 @@ pd.set_option('display.max_columns', None)
 
 ## Calculate and include missing values
 
-# Create a mask (boolean mask) as a filter to find all rows where "anteil_ga" is NA, but not "anzahl_ga" and "bevoelkerung"
+# Create a mask (boolean mask) as a filter to find all rows where "anteil_ga" is NA, but "anzahl_ga" and "bevoelkerung" is provided.
 mask_ga = df6['anteil_ga'].isna() & df6['anzahl_ga'].notna() & df6['bevoelkerung'].notna()
 # For all rows which meet condition from mask_ga, calculate the "anteil_ga"
 df6.loc[mask_ga, 'anteil_ga'] = df6.loc[mask_ga, 'anzahl_ga'] / df6.loc[mask_ga, 'bevoelkerung'] * 100
