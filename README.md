@@ -1,4 +1,4 @@
-# 🚆 CIP_FS25_204 – SBB GA and Halbtax Data Analysis
+# CIP_FS25_204 – SBB GA and Halbtax Data Analysis
 
 ## Authors
 
