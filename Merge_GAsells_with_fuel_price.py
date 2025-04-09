@@ -50,7 +50,7 @@ plt.show()
 #New data frame which includes the cantons, for filtering purposes. Join the data set, which is not grouped by year.
 #plot the data with the plotly library to hover over the visualization.
 #Its very interesting that most of the cantons follow a very similar pattern, the cantons behave very similar
-#when fuel prices are rising
+#when fuel prices are increasing
 df_joined_filter = pd.merge(df_fuel, df_main_data, on= "jahr", how="inner")
 print(df_joined_filter)
 scatterplot_ga_with_filter = px.scatter(df_joined_filter, x="Bleifrei 98", y="anzahl_ga", color="Kantonskürzel", title ="Fuel price vs GA Sales by canton", hover_data =["jahr","Kantonskürzel"])

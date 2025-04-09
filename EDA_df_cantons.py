@@ -69,7 +69,6 @@ plt.show()
 
 #I decided to focus on seaborn as it builds up on matplotlib and is known to use more aesthetic visualizations
 #The linechart shows the distribution of the shares of the cantons
-#How should we name the lines? -> to discuss with group
 plt.figure(figsize=(10, 6))
 sns.lineplot(x="jahr", y="anteil_ga", data=df_weighted_average, marker="o",  color = "blue", label ="Share of GA").set(title="Weighted average of GA, Halbtax and Total Abo per Year", xlabel="Year", ylabel="Share (%)")
 sns.lineplot(x="jahr", y="anteil_halbtax", data=df_weighted_average, marker="o", color = "green", label ="Share of Halbtax")
