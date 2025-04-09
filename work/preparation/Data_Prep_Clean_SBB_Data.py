@@ -4,7 +4,7 @@ import openpyxl
 
 ## Step 1: Load raw data
 # URL to raw data of primary data source
-url = "SBB_GA_Halbtax_Data.csv"
+url = "data/raw/SBB_GA_Halbtax_Data.csv"
 
 # Load data into a dataframe
 df1 = pd.read_csv(url)
