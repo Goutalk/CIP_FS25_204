@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 from pandas import to_numeric
 
 # Loading dataframe df_cantons.pkl
-df_cantons2 = pd.read_pickle("df_cantons.pkl")
+df_cantons2 = pd.read_pickle("../../processed/df_cantons.pkl")
 
 # Checking if loaded correctly
 #print(df_cantons2)
