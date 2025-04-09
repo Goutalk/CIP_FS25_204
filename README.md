@@ -59,7 +59,7 @@ The project is part of the course **CIP – Data Collection, Integration, and Pr
 | Postal codes | swisstopo (API) | Link ZIP codes to cantons/regions |
 | Energy prices | Swiss Federal Statistical Office (BFS) | Analyze historical fuel/electricity prices |
 | Car registrations | BFS | Analyze development of new vehicle registrations |
-| Election results (Nationalratswahlen (Parteistärke) | www.bfs.admin.ch | Share of Green Party voters per municipality |
+| Election results (Nationalratswahlen (Parteistärke) | bfs.admin.ch | Share of Green Party voters per municipality |
 | GeoJSON Swiss Cantons | opendatasoft.com | Plot a swiss map with figures from main / secondary datasets |
 
 ---
