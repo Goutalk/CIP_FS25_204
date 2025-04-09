@@ -123,7 +123,7 @@ df5.loc[mask_23_24, 'bevoelkerung'] = df5.loc[mask_23_24, 'bevoelkerung'].round(
 
 
 
-## FROM HERE: CURDIN (29/30.03)
+## FROM HERE: CURDIN Caderas (29/30.03)
 
 #Missing values for the share of GA / Halbtax
 """

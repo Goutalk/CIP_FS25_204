@@ -7,7 +7,7 @@ df_cantons2 = pd.read_pickle("df_cantons.pkl")
 
 # Checking if loaded correctly
 #print(df_cantons2)
-print(len(df_cantons2))
+#print(len(df_cantons2))
 
 """
 The following part intends to visually assess the datasets by 
@@ -36,7 +36,4 @@ plt.xlabel("Year")
 plt.grid(True)
 plt.tight_layout()
 plt.show()
-
-
-
 
