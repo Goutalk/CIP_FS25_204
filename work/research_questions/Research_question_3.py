@@ -8,8 +8,8 @@ from Data_Prep_Clean_SBB_Data import df_cantons
 
 
 #loading both datasets into a dataframe
-df_fuel = pd.read_excel("su-d-05.02.91.xlsx", header = 4)
-df_main_data = pd.read_pickle("df_cantons.pkl")
+df_fuel = pd.read_excel("../../data/raw/su-d-05.02.91.xlsx", header = 4)
+df_main_data = pd.read_pickle("../../data/processed/df_cantons.pkl")
 
 #taking only the relevant years (the same that are available in the main data set)
 df_fuel = df_fuel.iloc[47:60]
