@@ -6,9 +6,10 @@
 
 
 """
-This sections intends to answer the  first research question:
+This sections intends to answer:
 
-    * "Does the ratio of Green Party voters correlate with GA / Halbtax Sales per canton?" *
+a) a part of the first rearch question (plotting swiss maps with data form primary and secondary dataset)
+b) the second research question: "Does the ratio of Green Party voters correlate with GA / Halbtax Sales per canton?"
 
 Since the purpose of this project lies rather on learning how to collect, integrate and preprocess data we intend to use
 different visualizations and techniques to get experience in Python coding. While we know and acknowledge that not all visualization
@@ -31,7 +32,7 @@ from scipy.stats import pearsonr
 ## ********* STEP 1: Read in the already prepared data set obtained from SBB
 
 
-df_sbb = pd.read_pickle("df_cantons.pkl")
+df_sbb = pd.read_pickle("../../data/processed/df_cantons.pkl")
 #print(type(df_sbb))
 
 
@@ -39,7 +40,7 @@ df_sbb = pd.read_pickle("df_cantons.pkl")
 
 
 #  Read in the data from BFS about Nationalratswahlen
-px_elections = pyaxis.parse("bfs_elections_results.px", encoding = "latin-1")
+px_elections = pyaxis.parse("../../data/raw/bfs_elections_results.px", encoding = "latin-1")
 
 #  Checking which data variants are available in this .px file
 #print(px_elections.keys())
@@ -244,7 +245,7 @@ us&utm_source=chatgpt.com&disjunctive.kan_code&disjunctive.kan_name&sort=year&re
 """
 
 #  Open file with geodata and save it as geojson
-with open("georef-switzerland-kanton@public.geojson", encoding="utf-8") as f:
+with open("../../data/raw/georef-switzerland-kanton@public.geojson", encoding="utf-8") as f:
     geojson = json.load(f)
 
 #  Check canton names
