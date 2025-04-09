@@ -60,7 +60,7 @@ The project is part of the course **CIP – Data Collection, Integration, and Pr
 | Energy prices | Swiss Federal Statistical Office (BFS) | Analyze historical fuel/electricity prices |
 | Car registrations | BFS | Analyze development of new vehicle registrations |
 | Election results (Nationalratswahlen (Parteistärke) | bfs.admin.ch | Share of Green Party voters per municipality |
-| GeoJSON Swiss Cantons | opendatasoft.com | Plot a swiss map with figures from main / secondary datasets |
+| GeoJSON Swiss Cantons | opendatasoft.com | Plot swiss maps with figures from main / secondary datasets |
 
 ---
 
