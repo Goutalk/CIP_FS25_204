@@ -4,7 +4,7 @@ import openpyxl
 
 ## Step 1: Load raw data
 # URL to raw data of primary data source
-url = "data/raw/SBB_GA_Halbtax_Data.csv"
+url = "../../data/raw/SBB_GA_Halbtax_Data.csv"
 
 # Load data into a dataframe
 df1 = pd.read_csv(url)
@@ -201,7 +201,7 @@ df8 = df7.copy() #copy of original dataset
 ## Loading raw data (from file in repository)
 
 # URL to raw data of swisstopo file
-url_swisstopo = ("PLZ_index_swisstopo.csv")
+url_swisstopo = ("../../data/raw/PLZ_index_swisstopo.csv")
 
 # Load data into a dataframe
 df_swisstopo1 = pd.read_csv(url_swisstopo, sep = ";")
