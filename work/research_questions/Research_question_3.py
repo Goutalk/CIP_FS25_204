@@ -1,10 +1,8 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import statsmodels.api as sm
 import plotly.express as px
 
-from Data_Prep_Clean_SBB_Data import df_cantons
 
 
 #loading both datasets into a dataframe
