@@ -84,26 +84,15 @@ The project is part of the course **CIP – Data Collection, Integration, and Pr
 
 ---
 
-## Project Status
-
-- [x] Feasibility Study
-- [x] API access tested and sampled
-- [x] Project structure created
-- [x] Data cleaning ind preprocessing
-- [x] Exploratory analysis & visualizations
-- [x] Final documentation
-
----
-
 ## Code Contribution
 
 Code contributions by each team member are listed below:
 
 | Contributor             | Contribution                                                                 | Code                                                                                     |
 |-------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| **Christian Steinemann** | - Exploratory Data Analysis (EDA) <br> - Research Question 3                        | –                                                                                        |
-| **Curdin Caderas**       | - Initial data cleaning <br> - Exploratory Data Analysis (EDA) <br> - Research Questions 1 and 2                 | –                                                                                        |
-| **Thomas Aeschlimann**   | - Development of API data import (pagination) <br> - Initial data cleaning <br> - Research Question 4  | - `SBB GA API pagination multi-call.py`<br>- `Data_PreP_Clean_SBB_Data.ipynb`<br>- `GA_HTA_Passenger Cars.ipynb` |
+| **Christian Steinemann** | - Exploratory Data Analysis (EDA) <br> - Research Question 3                        | – `Research_question_1_Basic_visualization.py` <br> - `Research_question_3.py`                                                                                       |
+| **Curdin Caderas**       | - Initial data cleaning <br> - Exploratory Data Analysis (EDA) <br> - Research Questions 1 and 2                 | – `Data_PreP_Clean_SBB_Data.ipynb` <br> - `Research_question_1_Basic_visualization.py` <br> - `Research_question_1and2.py`                                                                                      |
+| **Thomas Aeschlimann**   | - Development of API data import (pagination) <br> - Initial data cleaning <br> - Research Question 4  | - `SBB GA API pagination multi-call.py`<br>- `Data_PreP_Clean_SBB_Data.ipynb`<br>- `Research_question_4.ipynb` |
 
 ---
 
