@@ -89,6 +89,6 @@ Code contributions by each team member are listed below:
 ## License Notice
 
 All data used in this project is subject to the terms and conditions of the respective data providers (SBB, BFS, opendata.swiss).  
-This project is for **academic purposes only** within the context of the CIP course.
+This project is for academic purposes only within the context of the CIP course.
 
 > Code changes are tracked via Git and can be reviewed in the commit history.
