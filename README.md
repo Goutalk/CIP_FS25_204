@@ -8,9 +8,9 @@ Christian Steinemann, Curdin Caderas, Thomas Aeschlimann
 
 ## Project Overview
 
-This project analyzes the ownership distribution of the **Swiss General Abonnement (GA)** and **Halbtax** subscriptions based on data from the **SBB Developer Portal API**. The goal is to uncover regional differences and potential correlations with political, demographic, and economic factors.
+This project analyzes the ownership distribution of the Swiss General Abonnement (GA)** and **Halbtax subscriptions based on data from the SBB Developer Portal API. The goal is to uncover regional differences and potential correlations with political, demographic, and economic factors.
 
-The project is part of the course **CIP – Data Collection, Integration, and Preprocessing (FS2025)** and primarily aims to provide hands-on experience with real-world data, APIs, and exploratory analysis techniques.
+The project is part of the course CIP – Data Collection, Integration, and Preprocessing (FS2025) and primarily aims to provide hands-on experience with real-world data, APIs, and exploratory analysis techniques.
 
 ---
 
@@ -41,6 +41,8 @@ The project is part of the course **CIP – Data Collection, Integration, and Pr
 
 4. Car registrations  
    - Do the GA / Halbtax sales correlate with the number of new registrations of passenger cars?
+  
+**Note**: The results of our analysis will be discussed in the final project documentation submitted on ILIAS.
 
 ---
 
