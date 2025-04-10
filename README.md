@@ -14,18 +14,6 @@ The project is part of the course CIP – Data Collection, Integration, and Prep
 
 ---
 
-## Objective
-
-- Analyze the regional distribution of GA and Halbtax sales (ZIP code / canton / urban vs. rural)
-- Investigate potential correlations with:
-  - Political orientation (e.g., share of Green Party voters)
-  - Energy price development (gasoline, electricity)
-  - Number of newly registered passenger cars
-
-> **Note**: We do not aim to postulate any kind of causality. The focus is on exploratory analysis and practicing data-handling techniques.
-
----
-
 ## Research Questions
 
 1. What are the properties of GA / Halbtax Sales in Switzerland  
