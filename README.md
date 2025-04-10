@@ -80,9 +80,9 @@ Code contributions by each team member are listed below:
 
 | Contributor             | Contribution                                                                 | Code                                                                                     |
 |-------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------------------|
-| **Christian Steinemann** | - Exploratory Data Analysis (EDA) <br> - Research Question 3                        | – `Research_question_1_Basic_visualization.py` <br> - `Research_question_3.py`                                                                                       |
+| **Christian Steinemann** | - Initial data cleaning - Exploratory Data Analysis (EDA) <br> - Research Question 3                        |  – `Data_PreP_Clean_SBB_Data.ipynb` <br> – `Research_question_1_Basic_visualization.py` <br> - `Research_question_3.py`                                                                                       |
 | **Curdin Caderas**       | - Initial data cleaning <br> - Exploratory Data Analysis (EDA) <br> - Research Questions 1 and 2                 | – `Data_PreP_Clean_SBB_Data.ipynb` <br> - `Research_question_1_Basic_visualization.py` <br> - `Research_question_1and2.py`                                                                                      |
-| **Thomas Aeschlimann**   | - Development of API data import (pagination) <br> - Initial data cleaning <br> - Research Question 4  | - `SBB GA API pagination multi-call.py`<br>- `Data_PreP_Clean_SBB_Data.ipynb`<br>- `Research_question_4.ipynb` |
+| **Thomas Aeschlimann**   | - Development of API data import (pagination) <br> - Initial data cleaning <br> - Research Question 4  | - `SBB GA API pagination multi-call.py`<br>- `Data_PreP_Clean_SBB_Data.py`<br>- `Research_question_4.ipynb` |
 
 ---
 
